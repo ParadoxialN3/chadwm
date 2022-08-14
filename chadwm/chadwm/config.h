@@ -140,7 +140,7 @@ static Key keys[] = {
     {MODKEY|ShiftMask,                XK_s,       spawn,
         SHCMD("flameshot gui")},
 
-    { MODKEY,                           XK_d,       spawn,          SHCMD("rofi -show drun") },
+    { MODKEY,                           XK_d,       spawn,          SHCMD("$HOME/.config/rofi/launchers/type-1/launcher.sh") },
     { MODKEY,                           XK_Return,  spawn,            SHCMD("alacritty")},
 
     // toggle stuff
